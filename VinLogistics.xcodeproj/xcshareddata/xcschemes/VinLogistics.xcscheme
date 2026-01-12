@@ -39,6 +39,28 @@
          </BuildableReference>
       </MacroExpansion>
       <Testables>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3CF8357096CCBBA5C17C62DE"
+               BuildableName = "VinLogisticsTests.xctest"
+               BlueprintName = "VinLogisticsTests"
+               ReferencedContainer = "container:VinLogistics.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "89B601497F79CE7757689FDC"
+               BuildableName = "VinLogisticsUITests.xctest"
+               BlueprintName = "VinLogisticsUITests"
+               ReferencedContainer = "container:VinLogistics.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <CommandLineArguments>
       </CommandLineArguments>

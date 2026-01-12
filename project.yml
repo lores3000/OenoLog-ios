@@ -28,6 +28,32 @@ targets:
         - SwiftUI.framework
         - SwiftData.framework
 
+  VinLogisticsTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: VinLogisticsTests
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: com.vinlogistics.appTests
+      SWIFT_VERSION: "5.9"
+      IPHONEOS_DEPLOYMENT_TARGET: "17.0"
+      GENERATE_INFOPLIST_FILE: true
+    dependencies:
+      - target: VinLogistics
+
+  VinLogisticsUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources:
+      - path: VinLogisticsUITests
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: com.vinlogistics.appUITests
+      SWIFT_VERSION: "5.9"
+      IPHONEOS_DEPLOYMENT_TARGET: "17.0"
+      GENERATE_INFOPLIST_FILE: true
+    dependencies:
+      - target: VinLogistics
+
 schemes:
   VinLogistics:
     build:
@@ -37,4 +63,7 @@ schemes:
       config: Debug
     test:
       config: Debug
+      targets:
+        - name: VinLogisticsTests
+        - name: VinLogisticsUITests
 

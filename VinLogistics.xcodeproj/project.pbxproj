@@ -10,10 +10,16 @@
 		03CAF1CF03CE78F58DBA9416 /* Wine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B874756FA32A25D787091FC0 /* Wine.swift */; };
 		11FF750BF591907061BB9BFF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA94680914A497E05F42E08F /* ContentView.swift */; };
 		1761BDC35165B94CA4952A11 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED26BE77A0E3A472C2541938 /* Location.swift */; };
+		1E22E937BF1F14ED7C282276 /* MainTabViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB82BBDF839ABD80BC46666 /* MainTabViewTests.swift */; };
+		2760DAAAB15C155B9DDE0D29 /* LocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4650F3AB627A262D99A436A /* LocationTests.swift */; };
+		31452D44611A3ECA2C11246D /* ManualWineEntryViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6338DEAD68DC1C4238FE28 /* ManualWineEntryViewTests.swift */; };
 		32F9D53FA28C00280144DDB1 /* BottleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA822FBA3121CC3C1C8D149 /* BottleType.swift */; };
 		4C427940CE66A425C9AF782A /* BottleTypeIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2BFB43C70502101B65E4E2 /* BottleTypeIcon.swift */; };
 		4D2289F616F1412A380F0326 /* LocationBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49F2BEB8E5F291DD8AD4EDE /* LocationBadge.swift */; };
+		523087F645BADF411DF1312E /* WineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE578B625074D3D80F86A59 /* WineTests.swift */; };
+		5CC6AD8A7BC32D22DB34C895 /* BottleTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572F68336F049A57A72EF6C8 /* BottleTypeTests.swift */; };
 		5E19CA91D50D05669B60BCBE /* WineStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB505AAC349772559EB73DB /* WineStatus.swift */; };
+		886B65BA95FDB3088DC9AAB4 /* OverviewViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FBE1FAF3F443A53B93EBFB /* OverviewViewTests.swift */; };
 		9F2FD6CE9FA72398BDA93BF7 /* InventoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE5DC048D24FE36D07F0E15 /* InventoryView.swift */; };
 		B0E7BD29D1373A4CAC8D89AA /* VinLogisticsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7A2328F52CC0066BEB464A /* VinLogisticsApp.swift */; };
 		BA90A569BADF0CD45DBCDD00 /* DesignTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5AD8C1F766FFB965E6ACBC /* DesignTokens.swift */; };
@@ -23,10 +29,30 @@
 		D3B959EF36CA22F60AEC8E4C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EC768C74383A5137DC84BD /* SettingsView.swift */; };
 		D8D4740C70C4D89CD9AC350B /* OverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB81E267C96D4B50FA748773 /* OverviewView.swift */; };
 		E21C53CA78254A7AD04A51E8 /* ManualWineEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76F8E58B3257643DB513F9D /* ManualWineEntryView.swift */; };
+		EBE17BEE26D892D79583ABE1 /* WineStatusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782751A1FCE6C61FF82BC9B9 /* WineStatusTests.swift */; };
 		FB2028EEEE714506063D488B /* DrinkabilityBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27552F78C429C785A4F183F9 /* DrinkabilityBadge.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		28ECEFDBB9E535A3265D56DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07E3EA14E9EACBD210257365 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3930D25645CFC6FDE528857;
+			remoteInfo = VinLogistics;
+		};
+		9305CB3B0EC57E5C0DC723B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07E3EA14E9EACBD210257365 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3930D25645CFC6FDE528857;
+			remoteInfo = VinLogistics;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		0EE578B625074D3D80F86A59 /* WineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineTests.swift; sourceTree = "<group>"; };
+		10FBE1FAF3F443A53B93EBFB /* OverviewViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewViewTests.swift; sourceTree = "<group>"; };
 		1A5AD8C1F766FFB965E6ACBC /* DesignTokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignTokens.swift; sourceTree = "<group>"; };
 		1D2BFB43C70502101B65E4E2 /* BottleTypeIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottleTypeIcon.swift; sourceTree = "<group>"; };
 		1D7A2328F52CC0066BEB464A /* VinLogisticsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VinLogisticsApp.swift; sourceTree = "<group>"; };
@@ -34,16 +60,23 @@
 		2BB7D8F42DBDA8C9AF138F2B /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
 		395C161BDE8012261914FF30 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
 		4AA822FBA3121CC3C1C8D149 /* BottleType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottleType.swift; sourceTree = "<group>"; };
+		4BF7F24AA495F9B48B42AB63 /* VinLogisticsUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = VinLogisticsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		572F68336F049A57A72EF6C8 /* BottleTypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottleTypeTests.swift; sourceTree = "<group>"; };
+		5AB82BBDF839ABD80BC46666 /* MainTabViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabViewTests.swift; sourceTree = "<group>"; };
 		5F762F0EF569204C6A092645 /* VinLogistics.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = VinLogistics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60EC768C74383A5137DC84BD /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		67E56E4EA0028160B833F3C8 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		782751A1FCE6C61FF82BC9B9 /* WineStatusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineStatusTests.swift; sourceTree = "<group>"; };
 		7B2926441F5881B80BFC8F99 /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
 		7BCF67C14D0B6F0EB495DA2E /* WineListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineListItem.swift; sourceTree = "<group>"; };
 		7DB505AAC349772559EB73DB /* WineStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineStatus.swift; sourceTree = "<group>"; };
+		8C6338DEAD68DC1C4238FE28 /* ManualWineEntryViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualWineEntryViewTests.swift; sourceTree = "<group>"; };
 		8EE5DC048D24FE36D07F0E15 /* InventoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryView.swift; sourceTree = "<group>"; };
 		B874756FA32A25D787091FC0 /* Wine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wine.swift; sourceTree = "<group>"; };
 		C76F8E58B3257643DB513F9D /* ManualWineEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualWineEntryView.swift; sourceTree = "<group>"; };
+		CA12F1A944AD44EF0F7E06BB /* VinLogisticsTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = VinLogisticsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB81E267C96D4B50FA748773 /* OverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewView.swift; sourceTree = "<group>"; };
+		E4650F3AB627A262D99A436A /* LocationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTests.swift; sourceTree = "<group>"; };
 		E49F2BEB8E5F291DD8AD4EDE /* LocationBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationBadge.swift; sourceTree = "<group>"; };
 		ED26BE77A0E3A472C2541938 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		F01BB0968FFAA2465B4C0001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -80,6 +113,8 @@
 			isa = PBXGroup;
 			children = (
 				5F762F0EF569204C6A092645 /* VinLogistics.app */,
+				CA12F1A944AD44EF0F7E06BB /* VinLogisticsTests.xctest */,
+				4BF7F24AA495F9B48B42AB63 /* VinLogisticsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -88,6 +123,8 @@
 			isa = PBXGroup;
 			children = (
 				BBE3A9B527396EBD63076B8E /* VinLogistics */,
+				D28D711C00D2CAADF1B2D1A3 /* VinLogisticsTests */,
+				9E3D789582A9F4A67FE8E954 /* VinLogisticsUITests */,
 				2AD4283D4229D7978FD13E00 /* Products */,
 			);
 			indentWidth = 4;
@@ -106,12 +143,31 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
+		69977FA3AD98FC46B15D16B5 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				572F68336F049A57A72EF6C8 /* BottleTypeTests.swift */,
+				E4650F3AB627A262D99A436A /* LocationTests.swift */,
+				782751A1FCE6C61FF82BC9B9 /* WineStatusTests.swift */,
+				0EE578B625074D3D80F86A59 /* WineTests.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
 		85ED8ACF240BE1215151C8D3 /* Infrastructure */ = {
 			isa = PBXGroup;
 			children = (
 				FA542EFA5A207C6F365EEE25 /* .gitkeep */,
 			);
 			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		8F6A34EF8697F48E1B3A8B83 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				69977FA3AD98FC46B15D16B5 /* Entities */,
+			);
+			path = Domain;
 			sourceTree = "<group>";
 		};
 		9A575C66CC2B7B303E9B0200 /* Entities */ = {
@@ -131,6 +187,16 @@
 				1A5AD8C1F766FFB965E6ACBC /* DesignTokens.swift */,
 			);
 			path = Design;
+			sourceTree = "<group>";
+		};
+		9E3D789582A9F4A67FE8E954 /* VinLogisticsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5AB82BBDF839ABD80BC46666 /* MainTabViewTests.swift */,
+				8C6338DEAD68DC1C4238FE28 /* ManualWineEntryViewTests.swift */,
+				10FBE1FAF3F443A53B93EBFB /* OverviewViewTests.swift */,
+			);
+			path = VinLogisticsUITests;
 			sourceTree = "<group>";
 		};
 		BBE3A9B527396EBD63076B8E /* VinLogistics */ = {
@@ -155,9 +221,53 @@
 			path = Domain;
 			sourceTree = "<group>";
 		};
+		D28D711C00D2CAADF1B2D1A3 /* VinLogisticsTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F6A34EF8697F48E1B3A8B83 /* Domain */,
+			);
+			path = VinLogisticsTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		3CF8357096CCBBA5C17C62DE /* VinLogisticsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44D96AA45A9D8E2AFEB350EF /* Build configuration list for PBXNativeTarget "VinLogisticsTests" */;
+			buildPhases = (
+				5450CDFDB06ACAEC1FF600DD /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52AC7090CF2ED21D35C4C0CB /* PBXTargetDependency */,
+			);
+			name = VinLogisticsTests;
+			packageProductDependencies = (
+			);
+			productName = VinLogisticsTests;
+			productReference = CA12F1A944AD44EF0F7E06BB /* VinLogisticsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		89B601497F79CE7757689FDC /* VinLogisticsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0F264829882583BC24B792A /* Build configuration list for PBXNativeTarget "VinLogisticsUITests" */;
+			buildPhases = (
+				12523EC3BB1D576197964AB9 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF36B237022010F3F1A90FE3 /* PBXTargetDependency */,
+			);
+			name = VinLogisticsUITests;
+			packageProductDependencies = (
+			);
+			productName = VinLogisticsUITests;
+			productReference = 4BF7F24AA495F9B48B42AB63 /* VinLogisticsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		E3930D25645CFC6FDE528857 /* VinLogistics */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 064E6D8BE407E48A5AB4FB95 /* Build configuration list for PBXNativeTarget "VinLogistics" */;
@@ -183,6 +293,11 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					89B601497F79CE7757689FDC = {
+						TestTargetID = E3930D25645CFC6FDE528857;
+					};
+				};
 			};
 			buildConfigurationList = 04A31D244E42E5E715ED2032 /* Build configuration list for PBXProject "VinLogistics" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -199,11 +314,34 @@
 			projectRoot = "";
 			targets = (
 				E3930D25645CFC6FDE528857 /* VinLogistics */,
+				3CF8357096CCBBA5C17C62DE /* VinLogisticsTests */,
+				89B601497F79CE7757689FDC /* VinLogisticsUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		12523EC3BB1D576197964AB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E22E937BF1F14ED7C282276 /* MainTabViewTests.swift in Sources */,
+				31452D44611A3ECA2C11246D /* ManualWineEntryViewTests.swift in Sources */,
+				886B65BA95FDB3088DC9AAB4 /* OverviewViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5450CDFDB06ACAEC1FF600DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC6AD8A7BC32D22DB34C895 /* BottleTypeTests.swift in Sources */,
+				2760DAAAB15C155B9DDE0D29 /* LocationTests.swift in Sources */,
+				EBE17BEE26D892D79583ABE1 /* WineStatusTests.swift in Sources */,
+				523087F645BADF411DF1312E /* WineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AD425414D5439C21152DC1D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -229,6 +367,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52AC7090CF2ED21D35C4C0CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3930D25645CFC6FDE528857 /* VinLogistics */;
+			targetProxy = 9305CB3B0EC57E5C0DC723B2 /* PBXContainerItemProxy */;
+		};
+		AF36B237022010F3F1A90FE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3930D25645CFC6FDE528857 /* VinLogistics */;
+			targetProxy = 28ECEFDBB9E535A3265D56DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		2E9E9D19D9F7AFB0DAA5A8AD /* Release */ = {
@@ -307,6 +458,82 @@
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.9;
 				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		62143B2132FAF51AD1140CF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vinlogistics.appUITests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VinLogistics;
+			};
+			name = Release;
+		};
+		B2F8869A086B399633AFAF60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vinlogistics.appTests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VinLogistics.app/VinLogistics";
+			};
+			name = Release;
+		};
+		BE9E4B7036AD4B3DAACE1070 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vinlogistics.appTests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VinLogistics.app/VinLogistics";
+			};
+			name = Debug;
+		};
+		BEACDBF8FE2C811592DEDC71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vinlogistics.appUITests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VinLogistics;
 			};
 			name = Debug;
 		};
@@ -413,6 +640,24 @@
 			buildConfigurations = (
 				3517E8F7FC65815F18FDDB3A /* Debug */,
 				E97D667549D89A84ED103E89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		44D96AA45A9D8E2AFEB350EF /* Build configuration list for PBXNativeTarget "VinLogisticsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE9E4B7036AD4B3DAACE1070 /* Debug */,
+				B2F8869A086B399633AFAF60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F0F264829882583BC24B792A /* Build configuration list for PBXNativeTarget "VinLogisticsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEACDBF8FE2C811592DEDC71 /* Debug */,
+				62143B2132FAF51AD1140CF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
