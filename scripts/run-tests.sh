@@ -1,5 +1,5 @@
 #!/bin/bash
-# Test-Skript für VinLogistics
+# Test-Skript für OenoLog
 # Führt Unit Tests und optional UI Tests aus
 
 set -e
@@ -17,8 +17,8 @@ PROJECT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$PROJECT_DIR"
 
 # Xcode-Projekt
-PROJECT="VinLogistics.xcodeproj"
-SCHEME="VinLogistics"
+PROJECT="OenoLog.xcodeproj"
+SCHEME="OenoLog"
 DESTINATION="platform=iOS Simulator,name=iPhone 17"
 
 # Prüfe ob Projekt existiert
@@ -47,7 +47,7 @@ TEST_OUTPUT=$(xcodebuild test \
     -project "$PROJECT" \
     -scheme "$SCHEME" \
     -destination "$DESTINATION" \
-    -only-testing:VinLogisticsTests 2>&1 | tee /tmp/xcode_test_output.txt)
+    -only-testing:OenoLogTests 2>&1 | tee /tmp/xcode_test_output.txt)
 TEST_EXIT_CODE=${PIPESTATUS[0]}
 
 # Prüfe ob Tests erfolgreich waren
@@ -73,7 +73,7 @@ if [[ "$1" != "--skip-ui-tests" ]]; then
         -project "$PROJECT" \
         -scheme "$SCHEME" \
         -destination "$DESTINATION" \
-        -only-testing:VinLogisticsUITests 2>&1 | tee /tmp/xcode_ui_test_output.txt; then
+        -only-testing:OenoLogUITests 2>&1 | tee /tmp/xcode_ui_test_output.txt; then
         echo -e "${GREEN}✅ UI Tests erfolgreich${NC}"
     else
         echo -e "${YELLOW}⚠️  UI Tests fehlgeschlagen (nicht kritisch für Pre-Commit)${NC}"

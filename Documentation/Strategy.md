@@ -1,4 +1,4 @@
-# Strategische Vision: VinLogistics
+# Strategische Vision: OenoLog
 
 ## 1. Das Problem (The "Why")
 Aktuelle Wein-Apps konzentrieren sich primär auf Social Media (Bewertungen anderer) oder riesige Datenbanken. Ernsthafte Sammler mit 100+ Flaschen haben jedoch ein logistisches Problem:

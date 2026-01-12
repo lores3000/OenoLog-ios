@@ -1,4 +1,4 @@
-# Design-System für VinLogistics
+# Design-System für OenoLog
 
 Diese Dokumentation definiert das Design-System mit Design-Tokens, wiederverwendbaren Komponenten und Style-Guide.
 

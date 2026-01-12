@@ -1,4 +1,4 @@
-# User Flows für VinLogistics
+# User Flows für OenoLog
 
 Diese Dokumentation beschreibt die detaillierten User Flows für alle primären Aktionen in der App.
 

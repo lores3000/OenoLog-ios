@@ -1,8 +1,8 @@
-# UX & Design Dokumentation für VinLogistics
+# UX & Design Dokumentation für OenoLog
 
 ## Übersicht
 
-Diese Dokumentation beschreibt das UX & Design-Konzept für VinLogistics, eine iOS-App zur professionellen Verwaltung von Weinkellern mit Fokus auf Logistik, Trinkreife und Offline-Fähigkeit.
+Diese Dokumentation beschreibt das UX & Design-Konzept für OenoLog, eine iOS-App zur professionellen Verwaltung von Weinkellern mit Fokus auf Logistik, Trinkreife und Offline-Fähigkeit.
 
 ## Design-Philosophie
 

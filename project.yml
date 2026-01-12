@@ -1,6 +1,6 @@
-name: VinLogistics
+name: OenoLog
 options:
-  bundleIdPrefix: com.vinlogistics
+  bundleIdPrefix: com.oenolog
   deploymentTarget:
     iOS: "17.0"
   developmentLanguage: de
@@ -10,16 +10,16 @@ options:
   xcodeVersion: "15.0"
 
 targets:
-  VinLogistics:
+  OenoLog:
     type: application
     platform: iOS
     sources:
-      - path: VinLogistics
+      - path: OenoLog
     resources:
-      - path: VinLogistics/Resources
+      - path: OenoLog/Resources
     settings:
-      PRODUCT_BUNDLE_IDENTIFIER: com.vinlogistics.app
-      INFOPLIST_FILE: VinLogistics/Info.plist
+      PRODUCT_BUNDLE_IDENTIFIER: com.oenolog.app
+      INFOPLIST_FILE: OenoLog/Info.plist
       SWIFT_VERSION: "5.9"
       IPHONEOS_DEPLOYMENT_TARGET: "17.0"
       TARGETED_DEVICE_FAMILY: "1" # iPhone only
@@ -28,42 +28,42 @@ targets:
         - SwiftUI.framework
         - SwiftData.framework
 
-  VinLogisticsTests:
+  OenoLogTests:
     type: bundle.unit-test
     platform: iOS
     sources:
-      - path: VinLogisticsTests
+      - path: OenoLogTests
     settings:
-      PRODUCT_BUNDLE_IDENTIFIER: com.vinlogistics.appTests
+      PRODUCT_BUNDLE_IDENTIFIER: com.oenolog.appTests
       SWIFT_VERSION: "5.9"
       IPHONEOS_DEPLOYMENT_TARGET: "17.0"
       GENERATE_INFOPLIST_FILE: true
     dependencies:
-      - target: VinLogistics
+      - target: OenoLog
 
-  VinLogisticsUITests:
+  OenoLogUITests:
     type: bundle.ui-testing
     platform: iOS
     sources:
-      - path: VinLogisticsUITests
+      - path: OenoLogUITests
     settings:
-      PRODUCT_BUNDLE_IDENTIFIER: com.vinlogistics.appUITests
+      PRODUCT_BUNDLE_IDENTIFIER: com.oenolog.appUITests
       SWIFT_VERSION: "5.9"
       IPHONEOS_DEPLOYMENT_TARGET: "17.0"
       GENERATE_INFOPLIST_FILE: true
     dependencies:
-      - target: VinLogistics
+      - target: OenoLog
 
 schemes:
-  VinLogistics:
+  OenoLog:
     build:
       targets:
-        VinLogistics: all
+        OenoLog: all
     run:
       config: Debug
     test:
       config: Debug
       targets:
-        - name: VinLogisticsTests
-        - name: VinLogisticsUITests
+        - name: OenoLogTests
+        - name: OenoLogUITests
 

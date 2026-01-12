@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00B1C591654C37CC8FCD6F4B /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49C4DA8BE2417EAEC0A5AA6 /* ScannerView.swift */; };
+		0A4CB9B209F6896853C14CBC /* WineStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04EA82768D941851E648D56 /* WineStatus.swift */; };
+		17C1AA4146A8E5D71A9EECBD /* Wine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F78EB1C7E0943649D9D8B4 /* Wine.swift */; };
+		1833C0D90BEE37E4BFAAD952 /* ManualWineEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B87C39C9CDE84BE0350E64 /* ManualWineEntryView.swift */; };
+		26E6976DCC7390C6CC12D364 /* InventoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82992337DB7F7FBF66D96E30 /* InventoryView.swift */; };
+		2796CC7B947F16F636879463 /* OverviewViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D12FFEF4B6F25CC3392AB6 /* OverviewViewTests.swift */; };
+		425888D0FF06F0FCA43C7262 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D211F6FB685506645F3E62D /* MainTabView.swift */; };
+		494625DFFC4A468437D43976 /* DrinkabilityBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E78AF55C528D357D0F0E53F /* DrinkabilityBadge.swift */; };
+		5B0F94B15B9A1A86733D4A00 /* WineListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123379D3FEF43C7767F16A00 /* WineListItem.swift */; };
+		6247DE4E3D5C5C0CD7608704 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6504DD54B373DFB6391696B1 /* README.md */; };
+		65A136AC067518697E17B2DF /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95F06C2934A0F8B7C1FF771 /* Location.swift */; };
+		67D3D8A22C51968D63856AD5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B06518811C1E404BED65BA9 /* ContentView.swift */; };
+		73A3A5438FBE5629966B1487 /* OenoLogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E01A176A7F2B97AE2186AFB /* OenoLogApp.swift */; };
+		80B2688C5CF5CC6A43926347 /* WineStatusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432765E53DEB75A49F83CD1D /* WineStatusTests.swift */; };
+		9FA94C48D1608D74850259DB /* LocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76F7BE1BC3F95242789258D /* LocationTests.swift */; };
+		A074D556977243562AF1197A /* MainTabViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FF1730F9CADCD2FD3EE54E /* MainTabViewTests.swift */; };
+		A9E82CEDF61B19665D86522F /* OverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF320B93E62F5720AFBE5CBD /* OverviewView.swift */; };
+		B1E902CF1CF8C2A1105111EC /* LocationBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7283C64D95869B5D50E5CA60 /* LocationBadge.swift */; };
+		C56B7D78A64FE61C733BE107 /* BottleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4439F120898BC141B69B48E5 /* BottleType.swift */; };
+		C87C117269B47EE4774080C4 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389AE33918250300D3EE1584 /* SettingsView.swift */; };
+		D32F3E332B1828887782F801 /* DesignTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46BCA7BC670035E21425A3C /* DesignTokens.swift */; };
+		DB8949A92B33E7CFAD67ED6D /* BottleTypeIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B189EFB52BE3BDA1C98918A0 /* BottleTypeIcon.swift */; };
+		EDE6D56A88D20DCDDEDAAE5C /* BottleTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3D1D143119A283D6E0BFCE /* BottleTypeTests.swift */; };
+		F8879CAA02FA543E970842AE /* ManualWineEntryViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752E0DD7C484443D53201AB4 /* ManualWineEntryViewTests.swift */; };
+		FDA42C57AA3D96A859A449A3 /* WineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8C4686EA7CB67A60BE0FBF /* WineTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0DDD6C21BE500A06C24A167 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F05527660F3F54FB6F87F967 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FC94216E9C6B348CECB5DA0;
+			remoteInfo = OenoLog;
+		};
+		FCAD10BBB08B59531C721B48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F05527660F3F54FB6F87F967 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FC94216E9C6B348CECB5DA0;
+			remoteInfo = OenoLog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06D12FFEF4B6F25CC3392AB6 /* OverviewViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewViewTests.swift; sourceTree = "<group>"; };
+		0B06518811C1E404BED65BA9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0D211F6FB685506645F3E62D /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		123379D3FEF43C7767F16A00 /* WineListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineListItem.swift; sourceTree = "<group>"; };
+		28B87C39C9CDE84BE0350E64 /* ManualWineEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualWineEntryView.swift; sourceTree = "<group>"; };
+		389AE33918250300D3EE1584 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		432765E53DEB75A49F83CD1D /* WineStatusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineStatusTests.swift; sourceTree = "<group>"; };
+		4439F120898BC141B69B48E5 /* BottleType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottleType.swift; sourceTree = "<group>"; };
+		44FF1730F9CADCD2FD3EE54E /* MainTabViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabViewTests.swift; sourceTree = "<group>"; };
+		6504DD54B373DFB6391696B1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6EF5C3AD56270A674C4F7CBC /* OenoLog.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = OenoLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7283C64D95869B5D50E5CA60 /* LocationBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationBadge.swift; sourceTree = "<group>"; };
+		752E0DD7C484443D53201AB4 /* ManualWineEntryViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualWineEntryViewTests.swift; sourceTree = "<group>"; };
+		7F3D1D143119A283D6E0BFCE /* BottleTypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottleTypeTests.swift; sourceTree = "<group>"; };
+		82992337DB7F7FBF66D96E30 /* InventoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryView.swift; sourceTree = "<group>"; };
+		835D8B7D0CC14DDC9A310268 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D8C4686EA7CB67A60BE0FBF /* WineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineTests.swift; sourceTree = "<group>"; };
+		8E01A176A7F2B97AE2186AFB /* OenoLogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OenoLogApp.swift; sourceTree = "<group>"; };
+		92FE41F75C2739B4310231E8 /* OenoLogUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = OenoLogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E78AF55C528D357D0F0E53F /* DrinkabilityBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkabilityBadge.swift; sourceTree = "<group>"; };
+		A04EA82768D941851E648D56 /* WineStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineStatus.swift; sourceTree = "<group>"; };
+		A8F588E299384627801A9C37 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		A95F06C2934A0F8B7C1FF771 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		B189EFB52BE3BDA1C98918A0 /* BottleTypeIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottleTypeIcon.swift; sourceTree = "<group>"; };
+		BF320B93E62F5720AFBE5CBD /* OverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewView.swift; sourceTree = "<group>"; };
+		C454A21F8FD7CE64FDFF9748 /* OenoLogTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = OenoLogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C46BCA7BC670035E21425A3C /* DesignTokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignTokens.swift; sourceTree = "<group>"; };
+		C6457FF2C4808FE114A02F08 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		DB909BCCB233AD962D78080D /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		F49C4DA8BE2417EAEC0A5AA6 /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
+		F6F78EB1C7E0943649D9D8B4 /* Wine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wine.swift; sourceTree = "<group>"; };
+		F76F7BE1BC3F95242789258D /* LocationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		00C677774BD77A65A54E3D0A /* OenoLog */ = {
+			isa = PBXGroup;
+			children = (
+				835D8B7D0CC14DDC9A310268 /* Info.plist */,
+				8E01A176A7F2B97AE2186AFB /* OenoLogApp.swift */,
+				D79DA52005CD05B72F5C0785 /* Domain */,
+				5355D58816EA65692D9EB2E4 /* Infrastructure */,
+				36208C3AF55615DBFF4B870B /* Presentation */,
+				0CB6C86F24B5A96D524E68D6 /* Resources */,
+			);
+			path = OenoLog;
+			sourceTree = "<group>";
+		};
+		0CB6C86F24B5A96D524E68D6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DB909BCCB233AD962D78080D /* .gitkeep */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		10A529B70A848F89599B0F70 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				C46BCA7BC670035E21425A3C /* DesignTokens.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		1B5ADDD222B472E4CEB559D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EF5C3AD56270A674C4F7CBC /* OenoLog.app */,
+				C454A21F8FD7CE64FDFF9748 /* OenoLogTests.xctest */,
+				92FE41F75C2739B4310231E8 /* OenoLogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		262A89E82D3AAAFBAA9C36EE /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B189EFB52BE3BDA1C98918A0 /* BottleTypeIcon.swift */,
+				9E78AF55C528D357D0F0E53F /* DrinkabilityBadge.swift */,
+				7283C64D95869B5D50E5CA60 /* LocationBadge.swift */,
+				123379D3FEF43C7767F16A00 /* WineListItem.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		36208C3AF55615DBFF4B870B /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				0B06518811C1E404BED65BA9 /* ContentView.swift */,
+				82992337DB7F7FBF66D96E30 /* InventoryView.swift */,
+				0D211F6FB685506645F3E62D /* MainTabView.swift */,
+				28B87C39C9CDE84BE0350E64 /* ManualWineEntryView.swift */,
+				BF320B93E62F5720AFBE5CBD /* OverviewView.swift */,
+				F49C4DA8BE2417EAEC0A5AA6 /* ScannerView.swift */,
+				389AE33918250300D3EE1584 /* SettingsView.swift */,
+				262A89E82D3AAAFBAA9C36EE /* Components */,
+				10A529B70A848F89599B0F70 /* Design */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		5355D58816EA65692D9EB2E4 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				C6457FF2C4808FE114A02F08 /* .gitkeep */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		572624B9135FBE45E5123AAB = {
+			isa = PBXGroup;
+			children = (
+				00C677774BD77A65A54E3D0A /* OenoLog */,
+				E0AAB1106FF6E1F551F9FD34 /* OenoLogTests */,
+				E20D9E400090B7F005152508 /* OenoLogUITests */,
+				1B5ADDD222B472E4CEB559D2 /* Products */,
+			);
+			indentWidth = 4;
+			sourceTree = "<group>";
+			tabWidth = 4;
+			usesTabs = 0;
+		};
+		7C2B026379EB6CC81098966A /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				B24C2D95DD4FB7C197BC835A /* Entities */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		B24C2D95DD4FB7C197BC835A /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				7F3D1D143119A283D6E0BFCE /* BottleTypeTests.swift */,
+				F76F7BE1BC3F95242789258D /* LocationTests.swift */,
+				432765E53DEB75A49F83CD1D /* WineStatusTests.swift */,
+				8D8C4686EA7CB67A60BE0FBF /* WineTests.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		D0C3AC7AF30DE044CEC6737F /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				4439F120898BC141B69B48E5 /* BottleType.swift */,
+				A95F06C2934A0F8B7C1FF771 /* Location.swift */,
+				F6F78EB1C7E0943649D9D8B4 /* Wine.swift */,
+				A04EA82768D941851E648D56 /* WineStatus.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		D79DA52005CD05B72F5C0785 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				A8F588E299384627801A9C37 /* .gitkeep */,
+				D0C3AC7AF30DE044CEC6737F /* Entities */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		E0AAB1106FF6E1F551F9FD34 /* OenoLogTests */ = {
+			isa = PBXGroup;
+			children = (
+				6504DD54B373DFB6391696B1 /* README.md */,
+				7C2B026379EB6CC81098966A /* Domain */,
+			);
+			path = OenoLogTests;
+			sourceTree = "<group>";
+		};
+		E20D9E400090B7F005152508 /* OenoLogUITests */ = {
+			isa = PBXGroup;
+			children = (
+				44FF1730F9CADCD2FD3EE54E /* MainTabViewTests.swift */,
+				752E0DD7C484443D53201AB4 /* ManualWineEntryViewTests.swift */,
+				06D12FFEF4B6F25CC3392AB6 /* OverviewViewTests.swift */,
+			);
+			path = OenoLogUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FC94216E9C6B348CECB5DA0 /* OenoLog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B499EC5ECA48365B477066A /* Build configuration list for PBXNativeTarget "OenoLog" */;
+			buildPhases = (
+				5118CD681EABFFB1B1AAB00C /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OenoLog;
+			packageProductDependencies = (
+			);
+			productName = OenoLog;
+			productReference = 6EF5C3AD56270A674C4F7CBC /* OenoLog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3EF884CAAB48891A9D0542F /* OenoLogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F985192934BFF32B2CFFB1C2 /* Build configuration list for PBXNativeTarget "OenoLogUITests" */;
+			buildPhases = (
+				C9F1BF17AC070A052F77A8E5 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48D93445432D4B9E84BF4D84 /* PBXTargetDependency */,
+			);
+			name = OenoLogUITests;
+			packageProductDependencies = (
+			);
+			productName = OenoLogUITests;
+			productReference = 92FE41F75C2739B4310231E8 /* OenoLogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		AD7FEDCD6A438B35311187CD /* OenoLogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B53B4349DDFC22D3259A3CBE /* Build configuration list for PBXNativeTarget "OenoLogTests" */;
+			buildPhases = (
+				188D896E32CC8E5F1666D74A /* Sources */,
+				683781F2BDB8A9DC04594376 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B186D20FB0A363321565301C /* PBXTargetDependency */,
+			);
+			name = OenoLogTests;
+			packageProductDependencies = (
+			);
+			productName = OenoLogTests;
+			productReference = C454A21F8FD7CE64FDFF9748 /* OenoLogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F05527660F3F54FB6F87F967 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A3EF884CAAB48891A9D0542F = {
+						TestTargetID = 4FC94216E9C6B348CECB5DA0;
+					};
+				};
+			};
+			buildConfigurationList = 668A6BB8FF78A402737E11ED /* Build configuration list for PBXProject "OenoLog" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = de;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				de,
+			);
+			mainGroup = 572624B9135FBE45E5123AAB;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FC94216E9C6B348CECB5DA0 /* OenoLog */,
+				AD7FEDCD6A438B35311187CD /* OenoLogTests */,
+				A3EF884CAAB48891A9D0542F /* OenoLogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		683781F2BDB8A9DC04594376 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6247DE4E3D5C5C0CD7608704 /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		188D896E32CC8E5F1666D74A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE6D56A88D20DCDDEDAAE5C /* BottleTypeTests.swift in Sources */,
+				9FA94C48D1608D74850259DB /* LocationTests.swift in Sources */,
+				80B2688C5CF5CC6A43926347 /* WineStatusTests.swift in Sources */,
+				FDA42C57AA3D96A859A449A3 /* WineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5118CD681EABFFB1B1AAB00C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C56B7D78A64FE61C733BE107 /* BottleType.swift in Sources */,
+				DB8949A92B33E7CFAD67ED6D /* BottleTypeIcon.swift in Sources */,
+				67D3D8A22C51968D63856AD5 /* ContentView.swift in Sources */,
+				D32F3E332B1828887782F801 /* DesignTokens.swift in Sources */,
+				494625DFFC4A468437D43976 /* DrinkabilityBadge.swift in Sources */,
+				26E6976DCC7390C6CC12D364 /* InventoryView.swift in Sources */,
+				65A136AC067518697E17B2DF /* Location.swift in Sources */,
+				B1E902CF1CF8C2A1105111EC /* LocationBadge.swift in Sources */,
+				425888D0FF06F0FCA43C7262 /* MainTabView.swift in Sources */,
+				1833C0D90BEE37E4BFAAD952 /* ManualWineEntryView.swift in Sources */,
+				73A3A5438FBE5629966B1487 /* OenoLogApp.swift in Sources */,
+				A9E82CEDF61B19665D86522F /* OverviewView.swift in Sources */,
+				00B1C591654C37CC8FCD6F4B /* ScannerView.swift in Sources */,
+				C87C117269B47EE4774080C4 /* SettingsView.swift in Sources */,
+				17C1AA4146A8E5D71A9EECBD /* Wine.swift in Sources */,
+				5B0F94B15B9A1A86733D4A00 /* WineListItem.swift in Sources */,
+				0A4CB9B209F6896853C14CBC /* WineStatus.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9F1BF17AC070A052F77A8E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A074D556977243562AF1197A /* MainTabViewTests.swift in Sources */,
+				F8879CAA02FA543E970842AE /* ManualWineEntryViewTests.swift in Sources */,
+				2796CC7B947F16F636879463 /* OverviewViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48D93445432D4B9E84BF4D84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FC94216E9C6B348CECB5DA0 /* OenoLog */;
+			targetProxy = FCAD10BBB08B59531C721B48 /* PBXContainerItemProxy */;
+		};
+		B186D20FB0A363321565301C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FC94216E9C6B348CECB5DA0 /* OenoLog */;
+			targetProxy = A0DDD6C21BE500A06C24A167 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		390699DFBF75F031F0B528CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.oenolog.appTests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OenoLog.app/OenoLog";
+			};
+			name = Debug;
+		};
+		3DBCB15A481546E7386EDD49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = OenoLog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LINKED_FRAMEWORKS = (
+					Vision.framework,
+					SwiftUI.framework,
+					SwiftData.framework,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.oenolog.app;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		3F1797E8030B29F754160973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.oenolog.appUITests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OenoLog;
+			};
+			name = Debug;
+		};
+		5BC6842346ADAFFCF2AFF9FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.oenolog.appTests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OenoLog.app/OenoLog";
+			};
+			name = Release;
+		};
+		69B2B747A5B72C3378E8C7A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B6BAF1460058799A05E09082 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.oenolog.appUITests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OenoLog;
+			};
+			name = Release;
+		};
+		BE1770157F428886081B5AD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C5BAE58114F64CF0FAC8B6EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = OenoLog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LINKED_FRAMEWORKS = (
+					Vision.framework,
+					SwiftUI.framework,
+					SwiftData.framework,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.oenolog.app;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B499EC5ECA48365B477066A /* Build configuration list for PBXNativeTarget "OenoLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5BAE58114F64CF0FAC8B6EB /* Debug */,
+				3DBCB15A481546E7386EDD49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		668A6BB8FF78A402737E11ED /* Build configuration list for PBXProject "OenoLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE1770157F428886081B5AD5 /* Debug */,
+				69B2B747A5B72C3378E8C7A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B53B4349DDFC22D3259A3CBE /* Build configuration list for PBXNativeTarget "OenoLogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				390699DFBF75F031F0B528CB /* Debug */,
+				5BC6842346ADAFFCF2AFF9FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F985192934BFF32B2CFFB1C2 /* Build configuration list for PBXNativeTarget "OenoLogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1797E8030B29F754160973 /* Debug */,
+				B6BAF1460058799A05E09082 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F05527660F3F54FB6F87F967 /* Project object */;
+}

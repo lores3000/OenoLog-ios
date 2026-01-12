@@ -14,7 +14,7 @@
 
 3. Öffne das Projekt in Xcode:
    ```bash
-   open VinLogistics.xcodeproj
+   open OenoLog.xcodeproj
    ```
 
 ## Option 2: Manuell in Xcode
@@ -23,7 +23,7 @@
 2. File > New > Project
 3. Wähle "iOS" > "App"
 4. Konfiguration:
-   - Product Name: `VinLogistics`
+   - Product Name: `OenoLog`
    - Team: (dein Team)
    - Organization Identifier: `com.vinlogistics`
    - Interface: `SwiftUI`
@@ -31,7 +31,7 @@
    - Storage: `SwiftData`
    - Include Tests: ✓
 5. Speichere im aktuellen Verzeichnis (überschreibe nicht die bestehenden Dateien)
-6. Kopiere die Dateien aus `VinLogistics/` in das neue Projekt
+6. Kopiere die Dateien aus `OenoLog/` in das neue Projekt
 7. Organisiere die Dateien in die Ordner:
    - `Domain/`
    - `Infrastructure/`
@@ -43,12 +43,12 @@
 Nach dem Setup sollte die Struktur so aussehen:
 
 ```
-VinLogistics/
+OenoLog/
 ├── Domain/              # Geschäftslogik, Entities, Use Cases
 ├── Infrastructure/      # Datenzugriff, Repositories, SwiftData
 ├── Presentation/        # SwiftUI Views, ViewModels, Coordinators
 ├── Resources/           # Assets, Localization
-├── VinLogisticsApp.swift
+├── OenoLogApp.swift
 └── Info.plist
 ```
 

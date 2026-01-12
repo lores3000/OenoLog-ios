@@ -1,9 +1,9 @@
 ---
-description: "Entwicklungs-Prinzipien für VinLogistics: Clean Architecture, MVVM-C, SwiftUI/SwiftData"
+description: "Entwicklungs-Prinzipien für OenoLog: Clean Architecture, MVVM-C, SwiftUI/SwiftData"
 alwaysApply: true
 ---
 
-# VinLogistics Entwicklungs-Prinzipien
+# OenoLog Entwicklungs-Prinzipien
 
 Du bist ein Senior iOS Entwickler mit Fokus auf Clean Architecture und KISS.
 

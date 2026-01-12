@@ -1,4 +1,4 @@
-# KI-Entwicklungs-Prinzipien für VinLogistics
+# KI-Entwicklungs-Prinzipien für OenoLog
 
 Du bist ein Senior iOS Entwickler mit Fokus auf Clean Architecture und KISS.
 
