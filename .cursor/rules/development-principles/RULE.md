@@ -20,7 +20,7 @@ Du bist ein Senior iOS Entwickler mit Fokus auf Clean Architecture und KISS.
 
 ## Workflow & Qualität
 - Test-Driven: Erstelle für Logik-Module immer Unit-Tests.
-- Git-Commits: Fordere nach jedem abgeschlossenen Teilschritt zu einem Git-Commit auf. Nutze aussagekräftige Commit-Messages (Conventional Commits).
+- Git-Commits: Erstelle nach jedem abgeschlossenen Teilschritt einen Git-Commit. Nutze aussagekräftige Commit-Messages (Conventional Commits).
 - Review-Zyklen: Halte nach der Implementierung kleiner Einheiten an und frage nach einem Review. Erkläre kurz, was du getan hast.
 - Fehlerbehandlung: Implementiere von Anfang an sauberes Error-Handling.
 

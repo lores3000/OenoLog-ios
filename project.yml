@@ -23,10 +23,10 @@ targets:
       SWIFT_VERSION: "5.9"
       IPHONEOS_DEPLOYMENT_TARGET: "17.0"
       TARGETED_DEVICE_FAMILY: "1" # iPhone only
-    dependencies:
-      - framework: Vision.framework
-      - framework: SwiftUI.framework
-      - framework: SwiftData.framework
+      LINKED_FRAMEWORKS:
+        - Vision.framework
+        - SwiftUI.framework
+        - SwiftData.framework
 
 schemes:
   VinLogistics:
