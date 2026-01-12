@@ -25,3 +25,4 @@ Die App soll als Premium-Werkzeug positioniert werden. Die saubere Datenstruktur
 - **Datenintegrität:** Keine Flasche darf durch Softwarefehler "verschwinden".
 - **Einfachheit:** Ein neuer Nutzer sollte ohne Anleitung in unter 1 Minute seine erste Flasche inkl. Subskription anlegen können.
 - **Präzision:** Die OCR-Erkennung muss robust genug sein, um auch bei schlechtem Kellerlicht Jahrgang und Weingut zu trennen.
+- **KISS (Keep It Simple, Stupid):** Keine überflüssigen Funktionen, Komplexität sollte auf das Notwendige beschränkt werden.
