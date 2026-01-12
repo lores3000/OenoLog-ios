@@ -7,13 +7,6 @@
 
 import SwiftUI
 
-enum BottleType {
-    case standard
-    case magnum
-    case threeLiter
-    case whiteWine
-}
-
 struct BottleTypeIcon: View {
     let type: BottleType
     

@@ -12,7 +12,7 @@ import SwiftData
 struct VinLogisticsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainTabView()
         }
         .modelContainer(for: [])
     }

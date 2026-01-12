@@ -7,11 +7,6 @@
 
 import SwiftUI
 
-enum Location {
-    case cellar
-    case apartment
-}
-
 struct LocationBadge: View {
     let location: Location
     
